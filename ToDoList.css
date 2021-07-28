@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Montserrat:ital,wght@1,800&display=swap');
+
+*, *::before, *::after{ box-sizing: border-box; }
+
+.todoframe{ 
+    margin: 0 auto;
+    width: 50%;
+}
+
+#addList{
+    position: relative;
+    left: 13px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #11D6F9;
+}
+form{
+    /* display: none; */
+    margin: 0 auto;
+    width: 20%;
+    display: none;
+    position: absolute;
+    left: 50%;
+}
+.for{
+    display: block;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    background: #F0013A;
+    border: 3px solid #11D6F9;
+    color: #11D6F9;
+    text-align: center;
+}
+.listContent{
+    background: #F0013A;
+    border: 3px solid #F0013A;
+  
+    
+}
+.listItems{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: #11D6F9;
+    height: 35px;
+    cursor:default;
+    color: #F0013A;
+    font-size: 20px;
+    cursor: default;
+    margin-bottom:2px;
+
+
+}
+#checkbox{
+    cursor: pointer;
+}
+.delete{
+    cursor: pointer;
+    
+}
+.misc{
+    float: right;
+}
+.done{
+    text-decoration-line: line-through;
+}
